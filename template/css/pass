@@ -1,0 +1,109 @@
+pass : 8u1GkeRhzkzaHrdcTnwm
+
+
+https://templatebkd.000webhostapp.com/
+
+
+123@travis
+
+https://bkppdkotakupang.000webhostapp.com/
+O^Ktt7oC2TZgXuO^ch#X
+
+.page-galeri .galeri-item {
+	margin: 0;
+	padding: 0;
+	background: #073146;
+}
+
+.page-galeri .galeri-item .box {
+	position: absolute;
+	width: 400px;
+	height: 400px;
+	background-color: #001e2d;
+	box-sizing: border-box;
+	overflow: hidden;
+	box-shadow: 0 20px 50px rgba(0, 0, 0, .5);
+	border: 2px solid rgba(0, 0, 0,.5)
+}
+
+.page-galeri .galeri-item .box:before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: -100%;
+	width: 100%;
+	height: 100%;
+	background: rgba(255, 255, 255, .1);
+	transition: 0.5s;
+	pointer-events: none;
+}
+
+.page-galeri .galeri-item .box:hover:before {
+	left: -50%;
+	transform: skewX(-5deg);
+}
+
+.page-galeri .galeri-item .box .content {
+	position: absolute;
+	top: 15px;
+	left: 15px;
+	right: 15px;
+	bottom: 15px;
+	border: 2px solid #ffeb3b;
+	padding: 30px;
+	box-shadow: 0 3px 10px rgba(0, 0, 0, .5);
+	color: #fff;
+}
+
+.page-galeri .galeri-item .box .content h6 a {
+	color: #fff;
+	font-size: 15px;
+	margin: 0 0 10px;
+	padding: 0;
+	text-decoration: none;
+}
+
+.page-galeri .galeri-item .box span {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	display: block;
+	box-sizing: border-box;
+}
+
+.page-galeri .galeri-item .box span:nth-child(1) {
+	transform: rotate(0deg);
+}
+
+.page-galeri .galeri-item .box span:nth-child(2) {
+	transform: rotate(90deg);
+}
+
+.page-galeri .galeri-item .box span:nth-child(3) {
+	transform: rotate(180deg);
+}
+
+.page-galeri .galeri-item .box span:nth-child(4) {
+	transform: rotate(270deg);
+}
+
+.page-galeri .galeri-item .box span:nth-child(2):before {
+	animation-delay: -2s;
+}
+
+.page-galeri .galeri-item .box span:nth-child(4):before {
+	animation-delay: -2s;
+}
+
+
+
+.page-galeri .galeri-item .box span:before {
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 2px;
+	background: #0093ff;
+	animation: animate 4s linear infinite;
+}

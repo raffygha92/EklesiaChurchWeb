@@ -1,0 +1,712 @@
+@media (min-width: 1200px) {
+
+	#menudua {
+		display: none;
+	}
+
+	
+}
+
+@media (max-width: 1200px) {
+
+
+	#navbar {
+		display: none;
+	}
+
+
+	#header {
+		display: none;
+	}
+
+	#menudua {
+		display: inline;
+		z-index: 999;
+	}
+
+	#wowslider-container1 {
+		z-index: 1;
+	}
+
+	#footer {
+		z-index: 1;
+	}
+
+	#garis {
+		width: 75%;
+	}
+
+	#garisdua{
+		width: 75%;
+	}
+
+	#garistiga {
+		width: 70%;
+	}
+
+
+
+}
+
+@media (max-width: 1100px) {
+	#garis {
+		width: 70%;
+	}
+
+	#garisdua{
+		width: 75%;
+	}
+
+	#garistiga {
+		width: 70%;
+	}
+}
+
+
+@media (max-width: 1024px) {
+
+	.profil .other-profil .recent-item .date .tgl  {
+		font-size: 20px;
+		text-align: center;
+	}
+
+	.profil .other-profil .recent-item .date .tgl i  {
+		margin-left: -5px;
+	}
+
+	.bidang .bidang-content {
+		letter-spacing: 1px;
+	}
+
+	#page_statistik .stat_konten .stat_footer a {
+		padding: 0;
+		border: none;
+	}
+
+	#page_statistik .stat_konten .stat_footer a:hover {
+	    background: transparent;
+	    color: #edb000;
+	    border: none; 
+	    box-shadow: none;
+	}
+
+	#stat_detail .stat_caption p{
+		padding-left: 30px;
+	}
+
+	#garistiga {
+		width: 65%;
+	}
+
+	
+}
+
+@media (max-width: 992px) { 
+
+
+	.profil .staf {
+		font-size: 14px;
+		letter-spacing: 1px;
+	}
+
+	.cari-item .date .tgl {
+		font-size: 17px;
+	}
+
+	.cari-item .date .bln {
+		font-size: 11px;
+	}
+
+	#garisdua{
+		width: 70%;
+	}
+
+	div.popup {
+		position: absolute;
+	}
+
+	div#box{
+		width: 90%;
+		height: auto;
+	}
+
+	div#box .popup_konten {} 
+
+	
+}
+
+@media (max-width: 991px) {
+	#footer #bd_footer {
+		display: none;
+	}
+
+	#statistik  {
+		padding: 60px 30px 60px 30px;
+	}
+}
+
+
+
+@media (max-width: 900px) {
+	.tajuk-berita .blog .blog-post .blog-content .blog-title a  {
+		position: absolute;
+		margin-top: -25px;
+		font-size: 11px;
+	}
+
+	.berita-terbaru .berita .berita-judul a {
+		font-size: 11px;
+	}
+
+	.page-berita .konten-berita .list-berita .blog_left_sidebar .blog_info .blog_meta li a {
+		font-size: 12px;
+	}
+
+	.page-berita .konten-berita .recent-news .recent-item .date .tgl .col-md-12 {
+		margin-left: -5px;
+	}
+
+	.page-berita .konten-berita .recent-news .recent-item .recent-konten a{
+		font-size: 10px;
+	}
+
+	.page-berita .konten-berita .recent-news .recent-item .recent-konten ul li {
+		font-size: 9px;
+	}
+
+	.baca-berita .konten-berita .isi-berita .judul-berita {
+		text-align: left;
+	}
+
+	.baca-berita .konten-berita .isi-berita .judul-berita h5 {
+		font-size: 15px;
+		font-weight: 600;
+	}
+
+	.baca-berita .konten-berita .recent-news .recent-item .recent-konten a{
+		font-size: 10px;
+	}
+
+	.baca-berita .konten-berita .recent-news .recent-item .recent-konten ul li {
+		font-size: 9px;
+	}
+
+	.bidang .bidang-content .box .bidang-detail .bidang-title {
+		font-size: 13px;
+	}
+	.bidang .bidang-content .box .bidang-detail p {
+		font-size: 12px;
+	}
+
+	.profil .profil-konten .box-profil .staf .nama {
+		font-size: 11px;
+		letter-spacing: 0;
+	}
+
+	.profil .profil-konten .box-profil .staf .jabatan {
+		font-size: 10px;
+		letter-spacing: 0;
+	}
+
+	
+
+	#stat_detail .konten_stat .grafik-area .nav .nav-item .nav-link {
+		font-size: 12px;
+	}
+
+	#stat_detail .konten_stat .stat_tabel .table-responsive table {
+		font-size: 10px;
+	}
+
+	
+
+	.page-infografis .recent-news .recent-item .recent-konten a {
+		font-size: 10px;
+	}
+
+	.page-infografis .recent-news .recent-item .recent-konten ul li {
+		font-size: 9px;
+	}
+
+	.cari-item .date .tgl,
+
+	.cari-item .date .bln {
+		font-size: 10px;
+		text-align: center;
+	}
+
+}
+
+@media (max-width: 850px) {
+
+	#garis {
+		width: 60%;
+	}
+
+	#garisdua{
+		width: 65%;
+	}
+
+	#garistiga {
+		width: 60%;
+	}
+
+	.tajuk-berita {
+		padding-right: 10px;
+		margin-bottom: 30px;
+	}
+
+	
+	
+
+	.page-berita .blog_post img {
+	  width: 100%;
+	  height: 200px;
+	}
+
+	.page-berita .konten-berita .list-berita .blog_left_sidebar .blog_info .blog_meta li a,
+	.page-berita .konten-berita .list-berita .blog_left_sidebar .blog_info .blog_meta li a i {
+		font-size: 11px;
+	}
+
+	.page-berita .recent-news .recent-item .date .tgl {
+	  background-color: #08526d;
+	  font-size: 20px;
+	  font-weight: bold;
+	  text-shadow: .1rem .1rem .2rem #000; 
+	}
+
+	.page-berita .recent-news .recent-item .date .bln {
+	  background-color: #111;
+	  font-size: 13px;
+	  font-weight: bold;
+	}
+
+	.page-berita .recent-news .recent-item .recent-konten a {
+	  font-size: 12px;
+	  line-height: 0; 
+	 }
+
+	.profil .other-profil .recent-item .date .tgl  {
+		font-size: 15px;
+		text-align: center;
+	}
+
+	.profil .other-profil .recent-item .recent-konten a {
+		font-size: 12px;
+	}
+
+	#stat_detail .konten_stat .grafik-area .nav .nav-item .nav-link {
+		font-size: 10px;
+	}
+
+	#page_statistik .stat_caption .info i {
+		font-size: 40px;
+	}
+
+	#page-aplikasi .single_app a h4 {
+		font-size: 12px;
+	}
+
+	.profil .other-profil .recent-item .date .tgl  {
+		margin-left: 10px;
+		position: absolute;
+	}
+
+	.profil .other-profil .recent-item .date .tgl i  {
+		margin-left: 0;
+	}
+
+	.profil .other-profil .recent-item .recent-konten {
+		margin-top: 30px;
+		text-justify: center;
+	}
+
+
+	.profil .other-profil .recent-item .recent-konten a {
+		font-size: 11px;
+	}
+
+	#stat_detail .konten_stat .grafik-area .nav .nav-item .nav-link {
+		font-size: 9px;
+	}
+
+	#footer #profil_footer {
+		display: none;
+	}
+}
+
+@media (max-width: 850px) {
+	#garistiga {
+		width: 50%;
+	}
+
+	#statistik {
+		padding-top: 80px;
+	}
+}
+@media (max-width: 850px) { }
+@media (max-width: 768px) {
+	#garis, #garisdua {
+		width: 60%;
+	}
+
+	#garistiga {
+		width: 50%;
+	}
+
+	.page-berita .konten-berita .list-berita .blog_left_sidebar .blog_info .blog_meta li a {
+		font-size: 15px;
+		display: inline;
+	}
+
+	.tajuk-berita .blog .blog-post .blog-content .blog-title a {
+		padding-top: 20px;
+		font-size: 11.5px;
+	}
+
+	#stat_detail .konten_stat .stat_tabel .table-responsive table {
+		font-size: 9px;
+	}
+}
+
+@media (max-width: 767px) {
+    
+	.page-berita .blog_post img {
+	  width: 100%;
+	  height: 300px;
+	}
+
+	.page-infografis .recent-news .recent-item img {
+		height: 100%;
+	}
+
+
+}
+
+@media (max-width: 736px) {
+	.page-berita .blog_post img {
+	  height: 100%;
+	}
+
+	#garis {
+		width: 50%;
+	}
+}
+
+@media (max-width: 667px) {
+	#garis {
+		margin-top: -20px;
+		margin-left: 35%;
+		width: 50%;
+	}
+
+	#garisdua {
+		margin-top: -20px;
+		margin-left: 50%;
+		width: 50%;
+	}
+
+	#garistiga {
+		margin-top: -17px;
+		margin-left: 40%;
+		width: 45%;
+	}
+}
+
+
+@media (max-width: 640px) {
+
+	.baca-berita .navigation-area .detials p {
+		font-size: 11px;
+	}
+
+	.baca-berita .navigation-area .detials a h4 {
+		font-size: 12px;
+	}
+}
+
+@media (max-width: 575px) {
+
+	.berita-terbaru .berita .berita-content .details,
+	.berita-terbaru .berita-content .berita-gambar .blog-img img {
+		width: 60%;
+	}
+}
+
+@media (max-width: 568px) {
+	#garis {
+		margin-top: -20px;
+		margin-left: 40%;
+		width: 45%;
+	}
+
+	#garisdua {
+		margin-top: -20px;
+		margin-left: 55%;
+		width: 45%;
+	}
+
+	#garistiga {
+		margin-top: -17px;
+		margin-left: 50%;
+		width: 33%;
+	}
+
+	.page-berita .blog_post img {
+	  width: 100%;
+	  height: 100%;
+	}
+
+	#statistik {
+		padding-top: 80px;
+	}
+
+	#menudua .gn-menu-main li.li-link {
+		display: none;
+	}
+
+	#menudua .gn-menu-main  li:not(:first-child) {
+		border: none;
+	}
+
+	#menudua .gn-menu-main .navbar-logo {
+		box-shadow: 0 0 0 0 !important;
+	}
+
+	#stat_detail .konten_stat .stat_tabel .table-responsive table {
+		font-size: 8px;
+	}
+}
+
+
+@media (max-width: 560px) {
+	#garis {
+		margin-top: -20px;
+		margin-left: 40%;
+		width: 47%;
+	}
+
+	#garisdua {
+		margin-top: -20px;
+		margin-left: 45%;
+		width: 45%;
+	}
+
+	#garistiga {
+		margin-top: -17px;
+		margin-left: 45%;
+		width: 40%;
+	}
+
+	.tajuk-berita .owl-nav .owl-prev,
+	.tajuk-berita .owl-nav .owl-next {
+		top: -32px;
+	}
+
+	.tajuk-berita .owl-nav .owl-prev {
+		left: 90%;
+	}
+
+	.tajuk-berita .owl-nav .owl-next {
+		right: 0;
+	}
+
+	.app .owl-nav .owl-prev,
+	.app .owl-nav .owl-next {
+		top: -17px;
+	}
+
+	.app .owl-nav .owl-prev {
+		left: 84%;
+	}
+
+	.tajuk-berita .owl-nav .owl-next {
+		right: 0;
+	}
+
+	.tajuk-berita {
+		padding: 80px 30px 20px 30px;
+		
+	}
+
+	
+
+	.berita-terbaru {
+		padding: 0 30px 20px 30px;
+	}
+
+	.berita-terbaru .berita-content {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+
+	.app {
+		padding: 30px 10px 10px 20px;
+		
+	}
+
+}
+
+@media (max-width: 414px) {
+	#garis {
+		width: 25%;
+		margin-left: 60%;
+	}
+
+	#garisdua {
+		width: 25%;
+		margin-left: 70%;
+	}
+
+	#garistiga {
+		width: 20%;
+		margin-left: 65%;
+	}
+
+	.tajuk-berita .owl-nav .owl-prev,
+	.tajuk-berita .owl-nav .owl-next {
+		top: -32px;
+	}
+
+	.tajuk-berita .owl-nav .owl-prev {
+		left: 87%;
+	}
+
+	.app .owl-nav .owl-next {
+		right: 0px;
+	}
+
+	.app .owl-nav .owl-prev {
+		left: 88%;
+	}
+
+	.page-berita, .baca-berita,
+	.profil, .ppid, 
+	.page-infografis, 
+	.page-dokumen, 
+	#page-aplikasi, #detail-aplikasi, 
+	#page-agenda, #detail-agenda, 
+	#page-foto,
+	#page-video, #page-watch {
+		padding: 80px 30px 30px 30px;
+	}
+
+
+	.page-galeri .list-galeri {
+		padding: 0;
+	}
+
+	.page-galeri {
+		padding: 80px 20px 20px 20px;
+	}
+
+	#page_statistik,
+	#stat_detail {
+		padding: 80px 10px 10px 10px;
+	}
+
+	.page-berita .blog_post img {
+	  width: 100%;
+	  height: 100%;
+	}
+
+	.video-home .video-content h4 {
+		font-size: 15px;
+	}
+
+	.profil .profil-konten .profil-heading h4>span {
+		font-size: 15px;
+	}
+
+	.video-home .video-box {
+		height: 200px;
+	}
+}
+
+@media (max-width: 375px) {
+
+
+	.tajuk-berita .owl-nav .owl-prev,
+	.tajuk-berita .owl-nav .owl-next {
+		top: -33px;
+	}
+
+	.tajuk-berita .owl-nav .owl-prev {
+		left: 85%;
+	}
+
+	.app .owl-nav .owl-prev {
+		left: 87%;
+	}
+
+	.page-berita .blog_post img {
+	  width: 100%;
+	  height: 100%;
+	}
+
+
+	#statistik {
+		padding-top: 80px;
+	}
+
+	#stat_detail .konten_stat .grafik-area .nav .nav-item .nav-link {
+		font-size: 8px;
+	}
+
+	
+
+	.bidang .bidang-header h5 {
+		font-size: 17px;
+	}
+
+	.profil .profil-konten .profil-heading h4>span {
+		font-size: 12px;
+	}
+
+
+	
+}
+
+@media (max-width: 368px) {
+
+	#menudua .gn-menu-main li.login-link {
+		display: none;
+	}
+}
+
+@media (max-width: 360px) { 
+	#garis, #garisdua, #garistiga {
+		display: none;
+	}
+}
+
+@media (max-width: 320px) {
+	
+
+	.tajuk-berita .owl-nav .owl-prev,
+	.tajuk-berita .owl-nav .owl-next {
+		top: -35px;
+	}
+
+	.tajuk-berita .owl-nav .owl-prev {
+		left: 83%;
+	}
+
+	.app .owl-nav .owl-prev {
+		left: 85%;
+	}
+
+	.video-home .video-box {
+		height: 150px;
+	}
+
+	.paginasi a {
+	  font-size: 11px;
+	  letter-spacing: 0;
+	}
+
+	
+
+	
+}
