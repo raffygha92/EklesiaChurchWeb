@@ -1,0 +1,736 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <!-- bootstrap icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+
+    <!-- Icon -->
+    <link rel="shortcut icon" href="Foto/logo/Logo2.png">
+
+    <!-- Animated on scroll-->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- bagguete -->
+    <link rel="stylesheet" href="template/css/baguetteBox.min.css">
+
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="fontawesome-free-6.0.0-web/css/fontawesome.min.css">
+    <link rel="stylesheet" href="fontawesome-free-6.0.0-web/css/brands.css">
+    <link rel="stylesheet" href="fontawesome-free-6.0.0-web/css/solid.css">
+
+    <!-- my css -->
+    <link rel="stylesheet" href="style.css">
+    <title>Buletin Gereja</title>
+
+</head>
+
+<body>
+
+    <!-- navbar -->
+    <div id="navbar" class="navbar navbar-expand-lg navbar-dark bg-black py-3">
+        <div class="container">
+            <a href="index.html" class="navbar-brand"><img src="Foto/logo/Logo2.png"
+                    class="img-fluid rounded-circle img-thumbnail logo" alt="logo">GKII Eklesia Sikumana</a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navigasi">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navigasi">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item text-capitalize">
+                        <a href="index.html" class="nav-link">home</a>
+                    </li>
+                    <li class="nav-item dropdown text-capitalize">
+                        <a href="#" class="nav-link" data-bs-toggle="dropdown">about
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="Sejarah Gereja.html">Sejarah Gereja</a></li>
+                            <hr class="dropdown-divider">
+                            <li><a class="dropdown-item" href="Suara Gembala.html">Suara Gembala</a></li>
+                            <hr class="dropdown-divider">
+                            <li><a class="dropdown-item" href="majelis jemaat.html">Majelis Jemaat</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item text-capitalize dropdown">
+                        <a href="#" class="nav-link" data-bs-toggle="dropdown">agenda</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="jadwal ibadah.html">Jadwal Ibadah Jemaat</a></li>
+                            <hr class="dropdown-divider">
+                            <li><a class="dropdown-item" href="kegiatan umum gereja.html">Kegiatan Umum Gereja</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item text-capitalize dropdown">
+                        <a href="#" class="nav-link" data-bs-toggle="dropdown">artikel</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="buletin gereja.html">Buletin Gereja</a></li>
+                            <hr class="dropdown-divider">
+                            <li><a class="dropdown-item" href="artikel ibadah.html">Artikel Ibadah</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item text-capitalize dropdown">
+                        <a href="#" class="nav-link" data-bs-toggle="dropdown">gallery</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="Video.html">Video</a></li>
+                            <hr class="dropdown-divider">
+                            <li><a class="dropdown-item" href="Foto-foto.html">Foto-Foto</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item text-capitalize">
+                        <a href="#" class="nav-link">contact us</a>
+                    </li>
+                </ul>
+                <div class="btn btn-danger btn-sm">Live Streaming</div>
+
+            </div>
+
+
+        </div>
+    </div>
+
+    <!-- navigasi -->
+    <nav class="linking py-5">
+        <div class="container">
+            <ol class="breadcrumb text-capitalize">
+                <li class="breadcrumb-item"><a href="index.html">beranda</a></li>
+                <li class="breadcrumb-item active" aria-current="page">buletin gereja</li>
+            </ol>
+        </div>
+    </nav>
+
+    <!-- judul -->
+    <div class="container text-center mb-5 buletinIbadahTop">
+        <div>
+            <h1 class="judul_bab">buletin gereja</h1>
+            <div class="pembungkus-sermon"> <span> <i class="fas fa-church"></i> </span></div>
+            <h6 class="heading">God Loves us all</h6>
+        </div>
+    </div>
+
+    <!-- <div id="print-area-1" class="print-area">
+        <div style="text-align:right;"><a class="no-print" href="javascript:printDiv('print-area-1');">Print</a></div>
+        <h2>Lorem Ipsum</h2>
+        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet
+            dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper
+            suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in
+            vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et
+            accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait
+            nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod
+            mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui facit
+            eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas
+            est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera
+            gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanitatis per seacula quarta
+            decima et quinta decima. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes in futurum.
+        </p>
+    </div> -->
+
+    <div id="printBuletin">
+        <section class="py-5 buletinIbadah text-center text-md-start print-area">
+            <header class="judul text-center text-uppercase fw-bold">
+                <h2>Susunan Acara Kebaktian Umum</h2>
+                <h3 class="text-warning">minggu, 13 februari 2022</h3>
+            </header>
+
+            <div class="container">
+                <div style="text-align:left;">
+                    <a class="no-print btn btn-warning fw-bold" href="javascript:printDiv('printBuletin');"> Cetak
+                        buletin
+                    </a>
+                </div>
+            </div>
+
+            <div class="container d-lg-flex justify-content-between gap-4">
+                <div class="left-side">
+                    <div class="col-md mt-5">
+                        <div>
+                            <h5 class="fw-bold">1. Pujian : <span class="text-uppercase">berhembuslah roh kudus</span>
+                            </h5>
+                            <div>
+                                <p class="lead">Berhembuslah roh kudus di tempat ini
+                                    Berhembuslah roh kudus dengan kuasa-Mu
+                                    Pulihkanlah G'reja-Mu di akhir jaman
+                                    Berhembuslah, berhembuslah s'karang
+                                </p>
+                                <span class="fw-bold" style="font-style: italic;"> Reff : </span>
+                                <p class="lead">
+                                    Urapilah kami dengan minyak baru
+                                    Penuhilah kami dengan hadirat-Mu
+                                    Kami rindu Tuhan melihat kuasa-Mu
+                                    Dicurahkan di tempat ini
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- bag 2-->
+                    <div class="col-md mt-3">
+                        <div>
+                            <h5 class="fw-bold text-capitalize">2. nats pembimbing/doa pembukaan : <span
+                                    class="text-uppercase">gembala
+                                    jemaat</span>
+                            </h5>
+                        </div>
+                    </div>
+
+                    <!--bag 3 -->
+                    <div class="col-md mt-3">
+                        <div>
+                            <h5 class="fw-bold">3. Pujian : <span class="text-uppercase">nki no. 156 berdiri karena
+                                    yesus<span>
+                            </h5>
+                            <div>
+                                <p class="lead">Berhembuslah roh kudus di tempat ini
+                                    Berhembuslah roh kudus dengan kuasa-Mu
+                                    Pulihkanlah G'reja-Mu di akhir jaman
+                                    Berhembuslah, berhembuslah s'karang
+                                </p>
+                                <span class="fw-bold" style="font-style: italic;"> Reff : </span>
+                                <p class="lead">
+                                    Urapilah kami dengan minyak baru
+                                    Penuhilah kami dengan hadirat-Mu
+                                    Kami rindu Tuhan melihat kuasa-Mu
+                                    Dicurahkan di tempat ini
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- bag 4-->
+                    <div class="col-md mt-3">
+                        <div>
+                            <h5 class="fw-bold text-capitalize">4. pengakuan iman <span class="text-uppercase">gkii
+                                    (jemaat
+                                    berdiri)</span>
+                            </h5>
+                        </div>
+                    </div>
+
+                    <!--bag 5 -->
+                    <div class="col-md mt-3">
+                        <div>
+                            <h5 class="fw-bold">5. Pujian sukacita : <span class="text-uppercase">ku kan bangkit<span>
+                            </h5>
+                            <div>
+                                <p class="lead">Mari kita semua umat pilihan Allah
+                                    dengarlah panggilan-Nya
+                                    tuk menggenapi firman-Nya
+                                    sekaranglah waktu-Nya
+                                    tuk berdiri bagi bangsa ini
+                                    mari maju umat pemenang
+                                </p>
+                                <span class="fw-bold" style="font-style: italic;"> Reff : </span>
+                                <p class="lead">
+                                    Ku kan bangkit nyatakan kemuliaan-Nya
+                                    ku kan bangkit nyatakan kebesaran-Nya
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- bagian 6 -->
+                    <div class="col-md mt-3">
+                        <div>
+                            <h5 class="fw-bold text-capitalize">6. doa syafaat : <span class="text-uppercase">ev.
+                                    christina
+                                    penjaha,
+                                    s.pd.k</span>
+                            </h5>
+                            <div>
+                                <h6 class="fw-bold text-capitalize">pujian syukur : <span class="text-uppercase">ku mau
+                                        cinta
+                                        Yesus</span>
+                                </h6>
+                                <p class="lead">Ku mau cinta Yesus selamanya
+                                    Ku mau cinta Yesus selamanya
+                                    Meskipun badai silih berganti dalam hidupku
+                                    Ku tetap cinta Yesus selamanya
+                                </p>
+                                <span class="fw-bold" style="font-style: italic;"> Reff : </span>
+                                <p class="lead">
+                                    Ya Abba Bapa ini aku anak-Mu
+                                    Layakkanlah seluruh hidupku
+                                    Ya Abba Bapa ini aku anak-Mu
+                                    Pakailah sesuai dengan rencana-Mu
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+
+                <!-- kanan -->
+                <div class="right-side">
+                    <!-- bag 7-->
+                    <div class="col-md mt-5">
+                        <div>
+                            <h5 class="fw-bold text-capitalize">7. persembahan syukur/pujian : <span
+                                    class="text-uppercase">nki no. 169</span>
+                            </h5>
+                        </div>
+                        <div>
+                            <h6 class="fw-bold text-capitalize">pujian : <span class="text-uppercase">sandar akan
+                                    perjanjian
+                                    Tuhan Yesus</span>
+                            </h6>
+                            <p class="lead">Marilah bersandar pada Almasih
+                                Pujian dan hormat pada-Nya di b’ri
+                                Oleh firman Allah kami t’rus menang
+                                Sambil harapkan perjanjian.
+                            </p>
+                            <span class="fw-bold" style="font-style: italic;"> Reff : </span>
+                            <p class="lead">
+                                Sandar! sandar!
+                                Sandar akan perjanjian Tuhan Yesus
+                                Sandar! sandar!
+                                Ku sandar akan janji Penebus.
+                            </p>
+                        </div>
+                    </div>
+
+
+                    <!--bag 8 -->
+                    <div class="col-md mt-3">
+                        <div>
+                            <h5 class="fw-bold text-capitalize">8. doa persembahan : <span class="text-uppercase">vic.
+                                    ariance j,
+                                    s.th<span>
+                            </h5>
+                        </div>
+                    </div>
+
+                    <!-- bag 9 -->
+                    <div class="col-md mt-3">
+                        <div>
+                            <h5 class="fw-bold text-capitalize">9. pembacaan firman Tuhan : <span
+                                    class="text-uppercase">yesaya 40 :
+                                    31<span>
+                            </h5>
+                        </div>
+                        <div>
+                            <h6 class="fw-bold text-capitalize">pujian pengantar khotbah : <span
+                                    class="text-uppercase">bagaikan bejana</span>
+                            </h6>
+                            <p class="lead">Bagaikan bejana siap dibentuk
+                                Demikian hidupku di tanganMu
+                                Dengan urapan kuasa RohMu
+                                Ku dibaharui selalu
+                                <br>
+                                Jadikan ku alat dalam rumahMu
+                                Inilah hidupku di tanganMu
+                                Bentuklan sturut kehendakMu
+                                Pakailah sesuai rencanaMu
+                            </p>
+                            <span class="fw-bold" style="font-style: italic;"> Reff : </span>
+                            <p class="lead">
+                                Ku mau sperti-Mu Yesus, disempurnakan selalu
+                                Dalam segnap jalanku, memuliakan namaMu
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- bag 10 -->
+                    <div class="col-md mt-3">
+                        <div>
+                            <h5 class="fw-bold text-capitalize">10. pengkhotbah : <span class="text-uppercase">vic.
+                                    yunus
+                                    tuku himba, s.pd.k<span>
+                            </h5>
+                        </div>
+                    </div>
+
+                    <!-- bag 11 -->
+                    <div class="col-md mt-3">
+                        <div>
+                            <h5 class="fw-bold text-capitalize">11. informasi kegiatan sepekan
+                        </div>
+                    </div>
+
+                    <!-- bag 12 -->
+                    <div class="col-md mt-3">
+                        <div>
+                            <h5 class="fw-bold text-capitalize">12. pujian : <span class="text-uppercase">nki no. 110
+                                    hanya
+                                    Yesus<span>
+                            </h5>
+                        </div>
+                        <div>
+                            <p class="lead">Hanya Yesus kita wartakan
+                                G’nap warta kita hanya Dia
+                                Ia selalu kita tinggikan
+                                Kita’kan nampak hanya Dia.
+                            </p>
+                            <span class="fw-bold" style="font-style: italic;"> Reff : </span>
+                            <p class="lead">
+                                Hanya Yesus s’lamanya Yesus
+                                Hanya Yesus kidung kita
+                                Jurus’lamat, pengudus, tabib
+                                Ialah raja termulia.
+                            </p>
+                        </div>
+
+                        <!-- bag 13 -->
+                        <div class="col-md mt-3">
+                            <div>
+                                <h5 class="fw-bold text-capitalize">13. doa berkat : <span
+                                        class="text-uppercase">gembala
+                                        jemaat<span>
+                                </h5>
+                            </div>
+                        </div>
+
+                        <!-- bag 14 -->
+                        <div class="col-md mt-3">
+                            <div>
+                                <h5 class="fw-bold text-capitalize">14. pujian penutup : <span
+                                        class="text-uppercase">Yesus
+                                        yang termanis<span>
+                                </h5>
+                            </div>
+                            <div>
+                                <p class="lead">Yesus yang termanis buat jiwaku
+                                    Buat jiwaku, buat jiwaku
+                                    Yesus yang termanis buat jiwaku
+                                    Ku cinta selamanya
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <!-- <div class="text-center">
+            <a href="cetak.php" target="_blank">
+                <button class="btn btn-warning btn-md">
+                    Cetak
+                </button>
+            </a>
+        </div> -->
+        </section>
+    </div>
+
+
+    <!-- print -->
+    <textarea id="printing-css" style="display:none;">html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}table{border-collapse:collapse;border-spacing:0}body{font:normal normal .8125em/1.4 Arial,Sans-Serif;background-color:white;color:#333}strong,b{font-weight:bold}cite,em,i{font-style:italic}a{text-decoration:none}a:hover{text-decoration:underline}a img{border:none}abbr,acronym{border-bottom:1px dotted;cursor:help}sup,sub{vertical-align:baseline;position:relative;top:-.4em;font-size:86%}sub{top:.4em}small{font-size:86%}kbd{font-size:80%;border:1px solid #999;padding:2px 5px;border-bottom-width:2px;border-radius:3px}mark{background-color:#ffce00;color:black}p,blockquote,pre,table,figure,hr,form,ol,ul,dl{margin:1.5em 0}hr{height:1px;border:none;background-color:#666}h1,h2,h3,h4,h5,h6{font-weight:bold;line-height:normal;margin:1.5em 0 0}h1{font-size:200%}h2{font-size:180%}h3{font-size:160%}h4{font-size:140%}h5{font-size:120%}h6{font-size:100%}ol,ul,dl{margin-left:3em}ol{list-style:decimal outside}ul{list-style:disc outside}li{margin:.5em 0}dt{font-weight:bold}dd{margin:0 0 .5em 2em}input,button,select,textarea{font:inherit;font-size:100%;line-height:normal;vertical-align:baseline}textarea{display:block;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}pre,code{font-family:"Courier New",Courier,Monospace;color:inherit}pre{white-space:pre;word-wrap:normal;overflow:auto}blockquote{margin-left:2em;margin-right:2em;border-left:4px solid #ccc;padding-left:1em;font-style:italic}table[border="1"] th,table[border="1"] td,table[border="1"] caption{border:1px solid;padding:.5em 1em;text-align:left;vertical-align:top}th{font-weight:bold}table[border="1"] caption{border:none;font-style:italic}.no-print{display:none}
+    </textarea>
+    <iframe id="printing-frame" name="print_frame" src="about:blank" style="display:none;"></iframe>
+
+    <!-- end print -->
+
+
+
+
+    <!-- contact & Map -->
+    <section class="p-5">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-md">
+                    <h2 class="text-center mb-4 fw-bold">
+                        Contact Info
+                    </h2>
+                    <ul class="list-group list-group-flush lead contactInfo">
+                        <li class="list-group-item">
+                            <span class="fw-bold">Lokasi</span>
+                            Jln. Air Lobang 1 Sikumana, Maulafa NTT
+                        </li>
+
+                        <li class="list-group-item">
+                            <span class="fw-bold">No. Telepon</span>
+                            (0967) 581256
+                        </li>
+                        <li class="list-group-item">
+                            <span class="fw-bold">Email</span>
+                            gkiieklesiasikumana@gmail.com
+                        </li>
+                        <li class="list-group-item">
+                            <span class="fw-bold">facebook</span>
+                            GKII Eklesia Sikumana
+                        </li>
+                        <li class="list-group-item">
+                            <span class="fw-bold">Twitter</span>
+                            GKII Eklesia Sikumana
+                        </li>
+                    </ul>
+                </div>
+                <!-- map -->
+                <div class="col-md mb-4 ">
+                    <h2 class="text-center mb-4 fw-bold">
+                        Lokasi Gereja
+                    </h2>
+                    <div class="col-md d-flex justify-content-center">
+                        <!-- <div id="map"></div> -->
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3302.047752737113!2d123.60387860691229!3d-10.19537546043265!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2c569b479799245d%3A0xdc2fac307adb9508!2sGKII%20Jemaat%20Eklesia%20Sikumana!5e0!3m2!1sen!2sid!4v1644557834374!5m2!1sen!2sid"
+                            width="600" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+    <!-- footer -->
+    <section class="p-3 bg-dark text-light text-center position-relative">
+        <div class="container">
+            <p class="lead">Copyright &copy;2022 GKII Eklesia Sikumana</p>
+
+            <a href="#" class="position-absolute bottom-0 end-0 p-3">
+                <i class="bi bi-arrow-up-circle-fill h1"></i></a>
+        </div>
+    </section>
+
+    <!-- Modal Hari Minggu Eklesia-->
+    <div class="modal fade" id="enrol" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title text-uppercase fw-bold text-warning" id="exampleModalLabel">Minggu, 20
+                        Februari 2022</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body modalJadwalIbadah">
+                    <ul class="timPelayan">
+                        <li>Pengkhotbah : <span class="text-warning">Vic. Jumina atabuna</span></li>
+                        <li>pemimpin ibadah :<span class="text-warning"> ev. rackhel laukuang</span></li>
+                        <li>penerima tamu : <span class="text-warning text-uppercase">persada</span></li>
+                        <li>Singers :
+                            <ul class="timPelayanNth">
+                                <li class="text-warning">Sdri. Yolanda Kadjakoro</li>
+                                <li class="text-warning">Sdri. Dessy Ndapatamu</li>
+                            </ul>
+                        </li>
+                        <li>Musikus :
+                            <ul class="timPelayanNth">
+                                <li class="text-warning">Pnt. Junixon Lakaal (Keyboardis)</li>
+                                <li class="text-warning">Sdra. Ady Ndun (Guitaris)</li>
+                                <li class="text-warning">Bpk. Yansen Maniata (Bassist)</li>
+                                <li class="text-warning">Sdra. Samuel Alokamating (Drummer)</li>
+                            </ul>
+                        </li>
+                        <li>Soundman :
+                            <ul class="timPelayanNth">
+                                <li class="text-warning">Sdra. Ebenhaezer Duha</li>
+                                <li class="text-warning">Sdra. Eldak K</li>
+                                <li class="text-warning">Samuel R</li>
+                                <li class="text-warning">Sdra. Oby Lahtang (Multimedia)</li>
+                            </ul>
+                        </li>
+                        <li>Pelayan : Ibadah PAR jam 08:00 Wita
+                            <ul class="timPelayanNth">
+                                <li class="text-warning">Guru-Guru Sekolah Minggu</li>
+                            </ul>
+                        </li>
+                    </ul>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <!-- <button type="button" class="btn btn-primary">Submit</button> -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- modal hari minggu bolmeo alak -->
+    <div class="modal fade" id="enrolBolmeo" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title text-uppercase fw-bold" id="exampleModalLabel">Minggu, 20 Februari 2022</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body modalJadwalIbadah">
+                    <ul class="timPelayan">
+                        <li>Pengkhotbah : <span class="text-warning">Vic. Jumina atabuna</span></li>
+                        <li>pemimpin ibadah :<span class="text-warning"> ev. rackhel laukuang</span></li>
+                        <li>penerima tamu : <span class="text-warning text-uppercase">persada</span></li>
+                        <li>Singers :
+                            <ul class="timPelayanNth">
+                                <li class="text-warning">Sdri. Yolanda Kadjakoro</li>
+                                <li class="text-warning">Sdri. Dessy Ndapatamu</li>
+                            </ul>
+                        </li>
+                        <li>Musikus :
+                            <ul class="timPelayanNth">
+                                <li class="text-warning">Pnt. Junixon Lakaal (Keyboardis)</li>
+                                <li class="text-warning">Sdra. Ady Ndun (Guitaris)</li>
+                                <li class="text-warning">Bpk. Yansen Maniata (Bassist)</li>
+                                <li class="text-warning">Sdra. Samuel Alokamating (Drummer)</li>
+                            </ul>
+                        </li>
+                        <li>Soundman :
+                            <ul class="timPelayanNth">
+                                <li class="text-warning">Sdra. Ebenhaezer Duha</li>
+                                <li class="text-warning">Sdra. Eldak K</li>
+                                <li class="text-warning">Samuel R</li>
+                                <li class="text-warning">Sdra. Oby Lahtang (Multimedia)</li>
+                            </ul>
+                        </li>
+                        <li>Pelayan : Ibadah PAR jam 08:00 Wita
+                            <ul class="timPelayanNth">
+                                <li class="text-warning">Guru-Guru Sekolah Minggu</li>
+                            </ul>
+                        </li>
+                    </ul>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <!-- <button type="button" class="btn btn-primary">Submit</button> -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- modal hari minggu liliba -->
+    <div class="modal fade" id="enrolLiliba" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title text-uppercase fw-bold" id="exampleModalLabel">Minggu, 20 Februari 2022</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body modalJadwalIbadah">
+                    <ul class="timPelayan">
+                        <li>Pengkhotbah : <span class="text-warning">Vic. Jumina atabuna</span></li>
+                        <li>pemimpin ibadah :<span class="text-warning"> ev. rackhel laukuang</span></li>
+                        <li>penerima tamu : <span class="text-warning text-uppercase">persada</span></li>
+                        <li>Singers :
+                            <ul class="timPelayanNth">
+                                <li class="text-warning">Sdri. Yolanda Kadjakoro</li>
+                                <li class="text-warning">Sdri. Dessy Ndapatamu</li>
+                            </ul>
+                        </li>
+                        <li>Musikus :
+                            <ul class="timPelayanNth">
+                                <li class="text-warning">Pnt. Junixon Lakaal (Keyboardis)</li>
+                                <li class="text-warning">Sdra. Ady Ndun (Guitaris)</li>
+                                <li class="text-warning">Bpk. Yansen Maniata (Bassist)</li>
+                                <li class="text-warning">Sdra. Samuel Alokamating (Drummer)</li>
+                            </ul>
+                        </li>
+                        <li>Soundman :
+                            <ul class="timPelayanNth">
+                                <li class="text-warning">Sdra. Ebenhaezer Duha</li>
+                                <li class="text-warning">Sdra. Eldak K</li>
+                                <li class="text-warning">Samuel R</li>
+                                <li class="text-warning">Sdra. Oby Lahtang (Multimedia)</li>
+                            </ul>
+                        </li>
+                        <li>Pelayan : Ibadah PAR jam 08:00 Wita
+                            <ul class="timPelayanNth">
+                                <li class="text-warning">Guru-Guru Sekolah Minggu</li>
+                            </ul>
+                        </li>
+                    </ul>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <!-- <button type="button" class="btn btn-primary">Submit</button> -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+    </script>
+
+    <!-- bagguete BOX -->
+    <script src="template/js/baguetteBox.min.js"></script>
+    <script src="template/js/jquery-3.6.0.min.js"></script>
+    <script src="template/js/jquery-3.3.1.slim.min.js"></script>
+    <script src="template/js/popper.min.js"></script>
+    <script src="template/js/script.js"></script>
+
+
+    <!-- script AOS -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+    <!-- script GASP -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/TextPlugin.min.js"></script>
+
+    <!-- AOS Animation -->
+
+
+    <!-- GSAP Animation -->
+    <script>
+        const galleryImages = document.querySelectorAll('.gallery-img');
+        // animasi gallery
+        galleryImages.forEach((img, i) => {
+            img.dataset.aos = 'fade-down';
+            img.dataset.aosDelay = i * 100;
+            img.dataset.aosDuration = 1000;
+        })
+
+
+        AOS.init({
+            once: true,
+            duration: 1000,
+        });
+    </script>
+
+    <!-- GSAP Animation -->
+    <script>
+        gsap.registerPlugin(TextPlugin);
+        gsap.to('.textWelcome', {
+            duration: 18,
+            delay: 2,
+            text: 'Demikianlah kamu bukan lagi orang asing dan pendatang, melainkan kawan sewarga dari orang - orang kudus dan anggota - anggota keluarga Allah, yang dibangun di atas dasar para rasul dan para nabi, dengan Kristus Yesus sebagai batu penjuru. Di dalam Dia tumbuh seluruh bangunan, rapih tersusun, menjadi bait Allah yang kudus, di dalam Tuhan. Di dalam Dia kamu juga turut dibangunkan menjadi tempat kediaman Allah, di dalam Roh.'
+        })
+
+        // gsap.from('.navbar', {
+        //     duration: 3,
+        //     x: '-100%',
+        //     ease: 'bounce',
+        // });
+    </script>
+
+    <!-- navbar scroll Animation -->
+    <script>
+        // When the user scrolls down 20px from the top of the document, slide down the navbar
+        window.onscroll = function () {
+            scrollFunction()
+        };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 400 || document.documentElement.scrollTop > 600) {
+                $('body').addClass("fixed-nav");
+            } else {
+                $('body').removeClass("fixed-nav");
+            }
+        }
+    </script>
+
+    <!-- animasi gallery -->
+    <script>
+        baguetteBox.run('.foto-galeri-about');
+    </script>
+
+
+</body>
+
+</html>
