@@ -32,7 +32,7 @@ $(document).ready(function () {
 
   // scrool up
   $(window).scroll(function () {
-    if (this.scrollY > 500) {
+    if (this.scrollY > 180) {
       $('.scroll-up-btn').addClass('show');
       $('#lm').addClass('show');
       $('.navbar').addClass('sticky');
@@ -55,6 +55,7 @@ $(function () {
   $('[data-bs-toggle="popover"]').popover();
 });
 
+// cetakan
 function printDiv(elementId) {
   var a = document.getElementById('printing-css').value;
   var b = document.getElementById(elementId).innerHTML;

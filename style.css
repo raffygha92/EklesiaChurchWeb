@@ -26,14 +26,25 @@ html {
   z-index: 999;
 }
 
-.sticky.navbar {
+@keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.navbar.sticky {
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   z-index: 99999;
   background-color: #1b1a17;
-  transition: all 1s ease-in;
+  /* transition: 0.5s all ease-in-out; */
   height: 12%;
   -webkit-animation-duration: 1s;
   animation-duration: 1s;
